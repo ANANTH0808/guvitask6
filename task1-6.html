@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>Contact Us</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <fieldset>
+            <legend>Employee Type:</legend>
+            <input type="radio" id="salaried" name="employee_type" value="salaried" required>
+            <label for="salaried">Salaried</label><br>
+            <input type="radio" id="own_business" name="employee_type" value="own_business">
+            <label for="own_business">Own Business</label><br>
+        </fieldset><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="50" required></textarea><br><br>
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
